@@ -2133,13 +2133,11 @@ export default {
         result.push(item[this.key_props])
       })
       if ((this.start === 0 && this.end === 0)) {
-        this.res = result
+        this.res = result+""
         this.end = this.arr.length
       } else {
-        this.res = result.slice(this.start, this.end <= this.arr.length ? this.end : this.arr.length)
-
+        this.res = result.slice(this.start, this.end <= this.arr.length ? this.end : this.arr.length)+''
       }
-
     }
   }
   , computed: {
