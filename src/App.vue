@@ -2,7 +2,7 @@
   <div id="app">
 
     <div>
-      <router-link to="/hello">待用</router-link>
+      <router-link to="/testMetarial">测试物料数组抽取小工具</router-link>
     </div>
     <div>
       <router-link to="/translate">开发过程中英文字典用</router-link>

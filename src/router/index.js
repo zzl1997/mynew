@@ -1,6 +1,6 @@
 import VueRouter from "vue-router";
 import Vue from "vue";
-import HelloWorld from "../components/HelloWorld";
+import arr_from_object from "../components/arr_from_object";
 import addTranslation from "../components/addTranslation.vue";
 Vue.use(VueRouter)
 
@@ -9,8 +9,8 @@ const routes = [
         path: '/translate', component:addTranslation
 
     }, {
-        path: '/hello',
-        component: HelloWorld
+        path: '/testMetarial',
+        component: arr_from_object
     }
 ]
 const router = new VueRouter({
