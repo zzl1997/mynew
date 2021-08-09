@@ -26,9 +26,7 @@ export default {
           input_zh: '',
           input_key: ''
         },
-
       ]
-
     }
   }
   ,
