@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/netease-music-summary" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ast/reworkcss_ast_explorer" vcs="Git" />
   </component>
 </project>
